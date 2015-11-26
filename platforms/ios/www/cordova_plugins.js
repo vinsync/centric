@@ -1,11 +1,11 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/com.pushbots.push/www/pushbots.js",
-        "id": "com.pushbots.push.PushbotsPlugin",
-        "pluginId": "com.pushbots.push",
+        "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+        "id": "onesignal-cordova-plugin.OneSignal",
+        "pluginId": "onesignal-cordova-plugin",
         "clobbers": [
-            "PushbotsPlugin"
+            "OneSignal"
         ]
     }
 ];
@@ -13,7 +13,7 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.2.0",
-    "com.pushbots.push": "1.2.8"
+    "onesignal-cordova-plugin": "1.9.4"
 }
 // BOTTOM OF METADATA
 });

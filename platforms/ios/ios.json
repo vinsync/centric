@@ -9,7 +9,17 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"PushbotsPlugin\"><param name=\"ios-package\" value=\"PushbotsPlugin\" /></feature>",
+                            "xml": "<feature name=\"OneSignalPush\"><param name=\"ios-package\" value=\"OneSignalPush\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "UIBackgroundModes": [
+                        {
+                            "xml": "<array><string>remote-notification</string></array>",
                             "count": 1
                         }
                     ]
@@ -19,25 +29,25 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.mydomain.push"
+            "PACKAGE_NAME": "com.vinsync.push"
         },
-        "com.pushbots.push": {
-            "PACKAGE_NAME": "com.mydomain.push"
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.vinsync.push"
         }
     },
     "dependent_plugins": {},
     "modules": [
         {
-            "file": "plugins/com.pushbots.push/www/pushbots.js",
-            "id": "com.pushbots.push.PushbotsPlugin",
-            "pluginId": "com.pushbots.push",
+            "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+            "id": "onesignal-cordova-plugin.OneSignal",
+            "pluginId": "onesignal-cordova-plugin",
             "clobbers": [
-                "PushbotsPlugin"
+                "OneSignal"
             ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.0",
-        "com.pushbots.push": "1.2.8"
+        "onesignal-cordova-plugin": "1.9.4"
     }
 }

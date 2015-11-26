@@ -8,10 +8,10 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.mydomain.push"
+            "PACKAGE_NAME": "com.vinsync.push"
         },
-        "com.pushbots.push": {
-            "PACKAGE_NAME": "com.mydomain.push"
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.vinsync.push"
         }
     },
     "dependent_plugins": {}

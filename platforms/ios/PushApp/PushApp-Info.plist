@@ -54,7 +54,7 @@
       </dict>
     </dict>
     <key>CFBundleIdentifier</key>
-    <string>com.mydomain.push</string>
+    <string>com.vinsync.push</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -177,6 +177,10 @@
         <key>UILaunchImageSize</key>
         <string>{768, 1024}</string>
       </dict>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
     </array>
   </dict>
 </plist>
