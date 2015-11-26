@@ -16,7 +16,24 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+ document.addEventListener('deviceready', function () {
+  // Enable to debug issues.
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+  
+  var notificationOpenedCallback = function(jsonData) {
+    console.log('didReceiveRemoteNotificationCallBack: ' + JSON.stringify(jsonData));
+  };
+
+  window.plugins.OneSignal.init("5cc74e8b-cf9f-48b0-bdd0-77022ef973af",
+                                 {googleProjectNumber: "657184287151"},
+                                 notificationOpenedCallback);
+  
+  // Show an alert box if a notification comes in when the user is in your app.
+  window.plugins.OneSignal.enableInAppAlertNotification(true);
+}, false);
+
 var app = {
+	
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -51,18 +68,3 @@ var app = {
 
 app.initialize();
 
-document.addEventListener('deviceready', function () {
-  // Enable to debug issues.
-  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
-  
-  var notificationOpenedCallback = function(jsonData) {
-    console.log('didReceiveRemoteNotificationCallBack: ' + JSON.stringify(jsonData));
-  };
-
-  window.plugins.OneSignal.init("5cc74e8b-cf9f-48b0-bdd0-77022ef973af",
-                                 {googleProjectNumber: "657184287151"},
-                                 notificationOpenedCallback);
-  
-  // Show an alert box if a notification comes in when the user is in your app.
-  window.plugins.OneSignal.enableInAppAlertNotification(true);
-}, false);
