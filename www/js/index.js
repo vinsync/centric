@@ -15,7 +15,6 @@
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
- * '56502e33177959a40c8b4568', '657184287151'
  */
 var app = {
     // Application Constructor
@@ -35,17 +34,9 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-		
-		if (PushbotsPlugin.isAndroid()) {
-        PushbotsPlugin.initializeAndroid('56502e33177959a40c8b4568', '657184287151');
-		} else if (PushbotsPlugin.isiOS()) {
-			PushbotsPlugin.initializeiOS('56502e33177959a40c8b4568');
-		}
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-		
-		
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');

@@ -9,7 +9,7 @@
         <param name="android-package" value="com.pushbots.plugin.PushbotsPlugin" />
     </feature>
     <allow-intent href="market:*" />
-    <name>Centric</name>
+    <name>testPushApp</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
