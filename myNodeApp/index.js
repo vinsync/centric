@@ -6,7 +6,7 @@ var Pushbots = new pushbots.api({
 });
 Pushbots.setMessage("Hello from pushbots node module", 1);
 Pushbots.customFields({
-    "openURL": "http://thejackalofjavascript.com/"
+    "openURL": "http://www.vinsync.com/"
 });
 Pushbots.push(function(response) {
     console.log('Push Response : ', response);
