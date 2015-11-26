@@ -82,10 +82,10 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-android-support-v4": {
             "PACKAGE_NAME": "com.push.notif.app"
         },
-        "cordova-plugin-android-support-v4": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.push.notif.app"
         },
         "com.pushbots.push": {
@@ -110,8 +110,8 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.0",
         "cordova-plugin-android-support-v4": "21.0.1",
+        "cordova-plugin-whitelist": "1.2.0",
         "com.pushbots.push": "1.2.8"
     }
 }

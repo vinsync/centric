@@ -7,6 +7,9 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-android-support-v4": {
+            "PACKAGE_NAME": "com.push.notif.app"
+        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.push.notif.app"
         },
@@ -14,9 +17,5 @@
             "PACKAGE_NAME": "com.push.notif.app"
         }
     },
-    "dependent_plugins": {
-        "cordova-plugin-android-support-v4": {
-            "PACKAGE_NAME": "com.push.notif.app"
-        }
-    }
+    "dependent_plugins": {}
 }

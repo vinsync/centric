@@ -39,12 +39,12 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		1E18CD50B025433EB702C200 /* PushbotsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C485B0256BB94DE7A10EFC79 /* PushbotsDelegate.m */; };
-		80FA438D35EF4B38BAF94507 /* PushbotsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DC36A52826184777B17F5E58 /* PushbotsPlugin.m */; };
 		32DF035D5AF8420BA4E8C1D5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620D37159A4B4DC3AB1B0711 /* CoreLocation.framework */; };
 		F2FC90B7DC4A40B1B7B400C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34230E5015E4497A896AD4A1 /* SystemConfiguration.framework */; };
 		38CEF54EC10C42CAAFA3EA01 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0DD8A7A6B74AAEAF7D5202 /* CoreTelephony.framework */; };
-		258AC078D77A4914B594CAFB /* Pushbots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA660C02A644D4EB43572F4 /* Pushbots.framework */; };
+		695FAE84F8964F408FEBBE16 /* PushbotsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C214927A04055AFE38E28 /* PushbotsDelegate.m */; };
+		535E42726267482584FE66B4 /* PushbotsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4CF8DC72A4585B71BE547 /* PushbotsPlugin.m */; };
+		18E19C542F7F461DBE882DFA /* Pushbots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADE6D956D374163A5CD0F01 /* Pushbots.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,14 +110,14 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "testPushApp/config.xml"; sourceTree = "<group>"; };
-		C485B0256BB94DE7A10EFC79 /* PushbotsDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushbotsDelegate.m"; path = "com.pushbots.push/PushbotsDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		DC36A52826184777B17F5E58 /* PushbotsPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushbotsPlugin.m"; path = "com.pushbots.push/PushbotsPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		3FC49E2ADEE241FF9E0D8DFE /* PushbotsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushbotsDelegate.h"; path = "com.pushbots.push/PushbotsDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		ABF2768E762742B6B7C8D328 /* PushbotsPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushbotsPlugin.h"; path = "com.pushbots.push/PushbotsPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		620D37159A4B4DC3AB1B0711 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		34230E5015E4497A896AD4A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		6F0DD8A7A6B74AAEAF7D5202 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		1BA660C02A644D4EB43572F4 /* Pushbots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Pushbots.framework"; path = "testPushApp/Plugins/com.pushbots.push/Pushbots.framework"; sourceTree = "<group>"; };
+		537C214927A04055AFE38E28 /* PushbotsDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushbotsDelegate.m"; path = "com.pushbots.push/PushbotsDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6AD4CF8DC72A4585B71BE547 /* PushbotsPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushbotsPlugin.m"; path = "com.pushbots.push/PushbotsPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DE61D74D893E4C9B8AA81060 /* PushbotsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushbotsDelegate.h"; path = "com.pushbots.push/PushbotsDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		655EAF6FBBA9464EB8383954 /* PushbotsPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushbotsPlugin.h"; path = "com.pushbots.push/PushbotsPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3ADE6D956D374163A5CD0F01 /* Pushbots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Pushbots.framework"; path = "testPushApp/Plugins/com.pushbots.push/Pushbots.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 				32DF035D5AF8420BA4E8C1D5 /* CoreLocation.framework in Frameworks */,
 				F2FC90B7DC4A40B1B7B400C9 /* SystemConfiguration.framework in Frameworks */,
 				38CEF54EC10C42CAAFA3EA01 /* CoreTelephony.framework in Frameworks */,
-				258AC078D77A4914B594CAFB /* Pushbots.framework in Frameworks */,
+				18E19C542F7F461DBE882DFA /* Pushbots.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +208,7 @@
 				620D37159A4B4DC3AB1B0711 /* CoreLocation.framework */,
 				34230E5015E4497A896AD4A1 /* SystemConfiguration.framework */,
 				6F0DD8A7A6B74AAEAF7D5202 /* CoreTelephony.framework */,
-				1BA660C02A644D4EB43572F4 /* Pushbots.framework */,
+				3ADE6D956D374163A5CD0F01 /* Pushbots.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,10 +224,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				C485B0256BB94DE7A10EFC79 /* PushbotsDelegate.m */,
-				DC36A52826184777B17F5E58 /* PushbotsPlugin.m */,
-				3FC49E2ADEE241FF9E0D8DFE /* PushbotsDelegate.h */,
-				ABF2768E762742B6B7C8D328 /* PushbotsPlugin.h */,
+				537C214927A04055AFE38E28 /* PushbotsDelegate.m */,
+				6AD4CF8DC72A4585B71BE547 /* PushbotsPlugin.m */,
+				DE61D74D893E4C9B8AA81060 /* PushbotsDelegate.h */,
+				655EAF6FBBA9464EB8383954 /* PushbotsPlugin.h */,
 			);
 			name = Plugins;
 			path = "testPushApp/Plugins";
@@ -412,8 +412,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				1E18CD50B025433EB702C200 /* PushbotsDelegate.m in Sources */,
-				80FA438D35EF4B38BAF94507 /* PushbotsPlugin.m in Sources */,
+				695FAE84F8964F408FEBBE16 /* PushbotsDelegate.m in Sources */,
+				535E42726267482584FE66B4 /* PushbotsPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +459,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"testPushApp/Plugins/com.pushbots.push\"",
+					"\"testPushApp/Plugins/com.pushbots.push\"",
 				);
 			};
 			name = Debug;
@@ -491,6 +492,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"testPushApp/Plugins/com.pushbots.push\"",
 					"\"testPushApp/Plugins/com.pushbots.push\"",
 				);
 			};

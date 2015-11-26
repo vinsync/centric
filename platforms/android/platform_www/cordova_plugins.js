@@ -18,8 +18,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-whitelist": "1.2.0",
     "cordova-plugin-android-support-v4": "21.0.1",
+    "cordova-plugin-whitelist": "1.2.0",
     "com.pushbots.push": "1.2.8"
 }
 // BOTTOM OF METADATA
