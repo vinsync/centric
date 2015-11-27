@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.onesignal.example" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>OneSignal Example</name>
+    <name>Centric</name>
     <description>
-        OneSignal Example App.
+        Centric - Message Manager
     </description>
     <author email="support@onesignal.com" href="https://onesignal.com">
-        OneSignal Team
+        Team VinSync
     </author>
     <content src="index.html" />
     <access origin="*" />
